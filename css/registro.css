@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("../img/bg-2.png");
+    margin:0;
+    padding:0;
+    background-size:cover ;
+    font-family: sans-serif;
+    height: 100%;
+}
+.home li{
+    list-style: none;
+    display:inline;
+    font-weight: bold;
+}
+/*HEADER*/
+.home a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+}
+.home{
+    width:1140px;
+    margin-bottom: 10px;
+}
+.home header{
+    background-color: orangered;
+    width:100%;
+    margin-top:15px;
+    margin-bottom:20px;
+   padding: 20px;
+   overflow: hidden;
+}
+.home header img{
+    float:left;
+}
+.home header ul.menu{
+    padding:10px;
+    float:left;
+}
+
+.home header ul.registro{
+    padding:10px;
+    float:right;
+}
+.home header li{
+    padding:15px;
+}
+
+/*FORMULARIO REGISTRO*/
+.register-box{
+    width: 320px;
+    height: 420px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding:30px 70px;
+    position: absolute;
+}
+.register-box label{
+margin:0;
+padding:0;
+font-weight: bold;
+display: block;
+}
+.register-box p{
+    margin-top:10px;
+    margin-bottom:20px
+}
+.register-box input{
+    width: 100%;
+}
+.register-box section{
+margin-bottom: 20px;
+}
+.register-box article{
+    
+    font-weight: bold;
+    display: inline;
+    }
+    .register-box .comentario input{
+   height: 100%;
+    }
+    .register-box button{
+        width: 50%;
+        margin:15px 0 30px 0;
+        border-radius: 90px;
+        background-color: #3c99dc;
+        border: solid 1px gray;
+        margin-right: 203px;
+        padding:5px 5px 5px 5px;
+        font-weight: 600;
+        display: inline;
+        color:white;
+    }
+    .register-box button a{
+        color:white;
+        text-decoration: none;
+    }

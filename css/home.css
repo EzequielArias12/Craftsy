@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("../img/bg-2.png");
+    
+}
+.home li{
+    list-style: none;
+    display:inline;
+    font-weight: bold;
+}
+/*HEADER*/
+.home a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+}
+.home{
+    width:1140px;
+    margin-bottom: 10px;
+}
+.home header{
+    background-color: orangered;
+    width:100%;
+    margin-top:15px;
+    margin-bottom:20px;
+   padding: 20px;
+   overflow: hidden;
+}
+.home header img{
+    float:left;
+}
+.home header ul.menu{
+    padding:10px;
+    float:left;
+}
+
+.home header ul.registro{
+    padding:10px;
+    float:right;
+}
+.home header li{
+    padding:15px;
+}
+/*MAIN*/
+.home main{
+    background-color: white;
+    float:left;
+    width: 800px;
+}
+.home main section{
+    width: 380px;
+    margin:10px 10px 10px 10px;
+    float:left;
+}
+.home main section img{
+    width: 100%;
+    
+}
+.home main section h2{
+    margin:10px;
+}
+.home section button{
+    background-color: orangered;
+    border: orangered;
+    margin:10px;
+}
+/*ASIDE*/
+.home aside{
+    float:right;
+    width:320px;
+    overflow:hidden;
+}
+.home aside section h2{
+   background-color: white;
+   text-transform: capitalize;
+   padding: 10px;
+   border: solid 1px skyblue;
+   margin-bottom: 10px;
+}
+.home aside article {
+  background-color:white;
+  border: solid 1px skyblue;
+  padding:10px;
+}
+.home aside section article a{
+    color:black;
+    width: 140px;
+    float:right;
+    text-transform: capitalize;
+    margin:20px 20px 0 0;
+    font-weight: 550;
+}
+.home aside section.list h2{
+    margin-top:10px;
+}
+.home aside section.list div{
+    padding:10px;
+    background-color: white;
+    border: solid 1px skyblue;
+}

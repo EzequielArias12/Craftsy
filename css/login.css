@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("../img/bg-2.png");
+    
+}
+.home li{
+    list-style: none;
+    display:inline;
+    font-weight: bold;
+}
+/*HEADER*/
+.home a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+}
+.home{
+    width:1140px;
+    margin-bottom: 10px;
+}
+.home header{
+    background-color: orangered;
+    width:100%;
+    margin-top:15px;
+    margin-bottom:20px;
+   padding: 20px;
+   overflow: hidden;
+}
+.home header img{
+    float:left;
+}
+.home header ul.menu{
+    padding:10px;
+    float:left;
+}
+
+.home header ul.registro{
+    padding:10px;
+    float:right;
+}
+.home header li{
+    padding:15px;
+}
+
+/*FORMULARIO*/
+ 
+.home form {
+    text-align: center;
+}
+.home form h1{
+    text-transform: capitalize;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.home form div{
+    margin-right: 100px;
+    width: 100%;
+    padding:3px;
+}
+.home form div p{
+margin-right: 195px;
+text-transform: bold;
+text-transform: capitalize;
+font-weight: 600;
+
+}
+.home form div.lista0 p{
+    margin-right:240px;
+    padding: 3px;
+}
+.home form div input{
+    width: 25%;
+    margin-bottom:20px;
+}
+.home form div.lista1 input{
+    width: 2%;
+    margin-left:180px;
+}
+.home form div.lista1 label{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.home form div button{
+    width: 10%;
+    margin:15px 0 30px 0;
+    border-radius: 90px;
+    background-color: #3c99dc;
+    border: solid 1px gray;
+    margin-right: 203px;
+    padding:5px 5px 5px 5px;
+    font-weight: 600;
+}
